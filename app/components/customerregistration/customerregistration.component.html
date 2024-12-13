@@ -1,0 +1,79 @@
+<div class="container">
+    <h2>Customer Details</h2>
+        <form>
+            <div class="row"> 
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="name">Name:<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="name" name="custName" placeholder="Enter Name"
+                            [(ngModel)]="customer.custName">
+                        <div *ngIf="custName && !customer.custName" class="text-danger">Name is required.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Email">Email:<span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="Email" name="custEmail" placeholder="Enter Email"
+                            [(ngModel)]="customer.custEmail">
+                        <div *ngIf="custEmail && !customer.custEmail" class="text-danger">{{ addCusEmailErrorMessage }}</div>
+                    </div>
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Password">Password:<span class="text-danger">*</span></label>
+                        <input type="password" class="form-control" id="Password" name="custPassword"
+                            placeholder="Enter Password" [(ngModel)]="customer.custPwd">
+                        <div *ngIf="custPwd && !customer.custPwd" class="text-danger">{{addCusPasswordErrorMessage}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="PhoneNo">PhoneNo:<span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="PhoneNo" name="custPhoneNo"
+                            placeholder="Enter PhoneNum" [(ngModel)]="customer.custPhoneNo">
+                        <div *ngIf="custPhoneNo && !customer.custPhoneNo" class="text-danger">{{addCusPhoneErrorMessage}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Address">Address:<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Address" name="custAddress"
+                            placeholder="Enter Address" [(ngModel)]="customer.custAddress">
+                        <div *ngIf="custAddress && !customer.custAddress" class="text-danger">Address is required.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">  
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Age">Age:<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Age" name="custAge" placeholder="Enter Age"
+                            [(ngModel)]="customer.custAge">
+                        <div *ngIf="custAge && !customer.custAge" class="text-danger">Age is required.</div>
+                    </div>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Gender">Gender:<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="Gender" name="custGender" placeholder="Enter Gender"
+                            [(ngModel)]="customer.custGender">
+                        <div *ngIf="custGender && !customer.custGender" class="text-danger">Gender is required.</div>
+                    </div>
+                </div>
+            </div>   
+        </form>
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" (click)="addCustomer()">Register</button>
+            <input type="button" style="margin-left: 10px;" value="Reset" (click)="resetForm()" class="btn btn-dark" />        
+        </div>
+</div>

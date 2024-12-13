@@ -1,0 +1,103 @@
+/* .container-fluid {
+    background-image: url("C:/Users/EINDUPRI/source/repos/CargoManagementUI/cargomanagersystem/src/assets/images/image (4)_cleanup.jpg");  
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    box-sizing: border-box;
+  } */
+
+  .container-fluid {
+    background-image: url("C:/Users/EINDUPRI/source/repos/CargoManagementUI/cargomanagersystem/src/assets/images/istockphoto-1339057752-170667a (1).jpg");  
+     /* background-image: url("C:/Users/EINDUPRI/source/repos/CargoManagementUI/cargomanagersystem/src/assets/images/image (4)_cleanup.jpg");   */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh; /* Set height to 100% of viewport height */
+    width: 100vw; /* Set width to 100% of viewport width */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+    box-sizing: border-box; /* Include padding in the width */
+    position: relative; /* Position navbar relative to container */
+    padding: 0;
+}
+.navbar-brand {
+    margin-right: auto; /* Pushes the brand/logo to the left */
+    padding: 0;
+    padding-right: 120px;
+
+}
+.navbar {
+    position: absolute; /* Position navbar absolutely within container-fluid */
+    width: 100%; /* Take full width of container */ 
+}
+
+.logout {
+    position: absolute; /* Position logout button absolutely within navbar */
+    top: 10px; /* Adjust top position */
+    right: 5px; /* Adjust right position */
+}
+
+.welcome-heading {
+    font-size: 3rem; /* Adjust font size as needed */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(196, 40, 40, 0.0); /* Add text shadow for better visibility */
+    margin-top: 50px;
+    padding-top: 150px;
+    padding-left: 300px;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #32cdc5 !important; /* Example hover color */
+  }
+
+  a:hover {
+    color: #32cdc5 !important; /* Example hover color */
+    cursor: pointer; /* Example cursor style */
+  }
+
+  h6:hover{
+    color: #32cdc5 !important; /* Example hover color */
+    cursor: pointer; /* Example cursor style */
+
+  }
+
+h1:hover{
+    color: #0eebddee !important; /* Example hover color */
+    cursor: pointer; /* Example cursor style */
+}
+
+.logo-and-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 20px; /* Adjust gap between elements */
+    color: white; /* Text color */
+    font-size: 12px; /* Adjust font size */
+}
+
+.logo-text-content {
+    flex: 1; /* Allow the text content to expand */
+}
+
+.logo-and-text::before {
+    content: '';
+    width: 40px; /* Width of the logo */
+    height: 40px; /* Height of the logo */
+    background-image: url('C:/Users/EINDUPRI/source/repos/CargoManagementUI/cargomanagersystem/src/assets/images/logo.jpg'); /* Image path */
+    background-size: contain; /* Adjust as needed */
+    background-repeat: no-repeat;
+    margin-bottom: -100px; /* Adjust to align the logo and text */
+    margin-right: 10px; /* Add margin between logo and text */
+    margin-top: 3px;
+}
+
+.logo-and-text .copyright {
+    margin-top: 0px; /* Adjust the position of the copyright text */
+}

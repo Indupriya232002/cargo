@@ -1,0 +1,12 @@
+.login {
+  background-image: url('C:/Users/EINDUPRI/source/repos/CargoManagementUI/cargomanagersystem/src/assets/images/login page_cleanup.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(239, 237, 244);
+  padding: 20px; /* Add some padding for better spacing */
+  height: 100vh; /* Set height to 100% of viewport height */
+  width: 100vw; /* Set width to 100% of viewport width */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto; /* Add vertical scrollbar if needed */
+  box-sizing: border-box; /* Include padding in the width */
+}
