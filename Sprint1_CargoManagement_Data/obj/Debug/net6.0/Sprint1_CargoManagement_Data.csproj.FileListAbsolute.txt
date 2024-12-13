@@ -1,0 +1,17 @@
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\bin\Debug\net6.0\Sprint1_CargoManagement_Data.deps.json
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\bin\Debug\net6.0\Sprint1_CargoManagement_Data.dll
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\bin\Debug\net6.0\Sprint1_CargoManagement_Data.pdb
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.AssemblyInfoInputs.cache
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.AssemblyInfo.cs
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.csproj.CoreCompileInputs.cache
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.dll
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\refint\Sprint1_CargoManagement_Data.dll
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.pdb
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\ref\Sprint1_CargoManagement_Data.dll
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\bin\Debug\net6.0\Sprint1_CargoManagement_Data.runtimeconfig.json
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\bin\Debug\net6.0\Sprint1_CargoManagement_Entity.dll
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\bin\Debug\net6.0\Sprint1_CargoManagement_Entity.pdb
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.csproj.AssemblyReference.cache
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.csproj.CopyComplete
+C:\Users\EINDUPRI\source\repos\Sprint1_CargoManagement_API\Sprint1_CargoManagement_Data\obj\Debug\net6.0\Sprint1_CargoManagement_Data.genruntimeconfig.cache
